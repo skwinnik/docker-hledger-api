@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:buster-slim
 
 MAINTAINER Dave Burke <thoughtcriminall@gmail.com>
 
