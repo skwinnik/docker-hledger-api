@@ -20,6 +20,8 @@ This will expose hledger-web on port 5000. Using data from file `$HOME/hledger-d
 
  * `HLEDGER_JOURNAL_FILE`
    * input file (default: /data/hledger.journal)
+ * `HLEDGER_HOST`
+   * Host to listen on (default 127.0.0.1)
  * `HLEDGER_PORT`
    * set the tcp port (default: 5000)
  * `HLEDGER_DEBUG`
