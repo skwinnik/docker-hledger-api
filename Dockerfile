@@ -1,4 +1,4 @@
-FROM dastapov/hledger
+FROM dastapov/hledger:1.26
 
 MAINTAINER Dave Burke <thoughtcriminall@gmail.com>
 
