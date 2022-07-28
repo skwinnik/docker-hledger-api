@@ -9,7 +9,7 @@ echo "debug level: ${HLEDGER_DEBUG:=1}"
 echo "rules file: ${HLEDGER_RULES_FILE:=/data/hledger.rules}"
 
 exec hledger-web \
-    --serve-api \
+    --serve \
     --host $HLEDGER_HOST \
     --port=$HLEDGER_PORT \
     --file "$HLEDGER_JOURNAL_FILE" \
